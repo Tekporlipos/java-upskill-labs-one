@@ -1,6 +1,4 @@
-package com.amalitech.upskilling.main;
-
-import com.amalitech.upskilling.OutPut;
+package com.amalitech.upskilling.week_one.lab_one;
 
 import java.util.concurrent.ForkJoinPool;
 
@@ -27,11 +25,11 @@ public class ParallelMatrixMultiplication {
             result = pool.invoke(task);
         }
 
-        OutPut.printColoredTextBlock("Matrix A:", OutPut.Colors.MAGENTA);
+        System.out.println("Matrix A:");
         printMatrix(inputMatrixA);
-        OutPut.printColoredTextBlock("Matrix B:", OutPut.Colors.MAGENTA);
+        System.out.println("Matrix B:");
         printMatrix(inputMatrixB);
-        OutPut.printColoredTextBlock("Result:", OutPut.Colors.MAGENTA);
+        System.out.println("Result:");
         printMatrix(result);
     }
 

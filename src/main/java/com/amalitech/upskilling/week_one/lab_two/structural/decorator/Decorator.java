@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.week_one.lab_two.structural;
+package com.amalitech.upskilling.week_one.lab_two.structural.decorator;
 
 interface Shape {
     void draw();

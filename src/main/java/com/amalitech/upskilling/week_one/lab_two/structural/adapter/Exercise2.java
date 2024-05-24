@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.week_one.lab_two.structural;
+package com.amalitech.upskilling.week_one.lab_two.structural.adapter;
 
 import java.util.List;
 

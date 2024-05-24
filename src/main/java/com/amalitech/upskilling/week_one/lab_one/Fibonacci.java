@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.main;
+package com.amalitech.upskilling.week_one.lab_one;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
